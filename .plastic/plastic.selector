@@ -1,0 +1,4 @@
+repository "SuperPanda/SuperPanda@13469857406393@cloud"
+  path "/"
+    br "/main"
+    co "/main"
