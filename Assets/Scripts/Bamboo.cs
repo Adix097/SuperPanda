@@ -18,6 +18,10 @@ public class Bamboo : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         ScoreManager.Instance.AddBamboo();
+        if (EnergyManager.Instance != null)
+        {
+            EnergyManager.Instance.AddEnergy(12.0f);
+        }
         Destroy(gameObject);
     }
 }

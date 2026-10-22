@@ -72,7 +72,7 @@ public class PandaRunner : MonoBehaviour
         }
     }
 
-    void Die()
+    public void Die()
     {
         Debug.Log("Hit! Final lap: " + lap);
         angle = 0f;
